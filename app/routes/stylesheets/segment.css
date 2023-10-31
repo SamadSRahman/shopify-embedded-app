@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: white;
+  width: 60vw;
+  border: 1px solid darkgray;
+  border-radius: 05px;
+  position: relative;
+  top: 3.3rem;
+}
+.toTag {
+  position: relative;
+  top: 1.3rem;
+  font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+.titleTag {
+  position: relative;
+  font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+
+.bodyTag {
+  position: relative;
+  bottom: 5.1rem;
+  font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  font-weight: 1px;
+}
+.titleField {
+  position: relative;
+  font-size: medium;
+  font-family: "Franklin Gothic Lighter", "Arial ", Arial, sans-serif;
+  font-weight: lighter;
+  left: 1rem;
+  bottom: 0.1rem;
+  border: none;
+  border-bottom: 1px solid darkgray;
+  width: 80%;
+  padding: 2px;
+}
+.titleField:focus {
+  outline: none;
+  border-bottom: 2px solid black;
+}
+.titleField:hover {
+  outline: none;
+  border-bottom: 2px solid black;
+}
+.titleField::placeholder {
+  color: darkgray;
+}
+.bodyTextarea {
+  position: relative;
+  top: 2px;
+  left: 1rem;
+  border: none;
+  resize: none;
+  font-family: "Franklin Gothic Lighter", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+.bodyTextarea:focus {
+  outline: 0;
+}
+#sendBtn {
+  position: relative;
+  top: 4rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.container {
+  position: relative;
+  left: 2rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.sectionDiv {
+  width: 40rem;
+  padding: 2px;
+  display: flex;
+}
+#backBtn {
+  position: relative;
+  right: 2rem;
+  top: 4rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+#fbLoginBtn {
+  background-color: orange;
+  position: relative;
+  left: 31rem;
+  text-transform: none;
+  bottom: 0.6rem;
+}
+.loginPopDiv {
+  border: 1px solid darkgray;
+  position: absolute;
+  left: 17rem;
+  bottom: 8rem;
+  width: 20rem;
+  height: 22rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  animation-name: appear;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+#submitBtn {
+  text-transform: none;
+  margin-top: 1rem;
+  background-color: forestgreen;
+}
+#loginHeading {
+  position: relative;
+  bottom: 3rem;
+  font-size: 20px;
+}
+#crossIcon {
+  position: relative;
+  bottom: 4rem;
+  left: 8.5rem;
+  color: tomato;
+  cursor: pointer;
+}
+#alert {
+  position: fixed;
+  bottom: 30rem;
+   width: 60vw;;
+  z-index: 10;
+  height: 3rem;
+}
